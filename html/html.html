@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricerca Lavoro</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+    <link rel="stylesheet" href="../style/css.css">
+</head>
+<body>
+    <header>
+        <h1>Portale di Ricerca Lavoro</h1>
+    </header>
+
+    <div class="contenitoreRicerca">
+        <label for="location">Location:</label>
+        <input type="text" id="location" placeholder="Inserisci la location">
+
+        <label for="jobTitle">Titolo Lavorativo:</label>
+        <input type="text" id="jobTitle" placeholder="Inserisci il titolo lavorativo">
+
+        <button id="bottoneRicerca">Cerca <ion-icon name="search-sharp"></ion-icon> </button>
+    </div>
+
+    <div id="risultati">
+        <h2>Risultati della Ricerca</h2>
+        <div id="risultatiRicerca">
+
+        </div>
+    </div>
+    
+
+    <footer>
+        <p>Portale Ricerca Lavoro</p>
+    </footer>
+
+    <script src="../js/scaricabile.js"></script>
+</body>
+</html>

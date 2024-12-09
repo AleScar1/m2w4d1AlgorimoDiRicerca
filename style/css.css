@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+header{
+    background: rgb(222,170,121);
+background: -moz-linear-gradient(180deg, rgba(222,170,121,1) 0%, rgba(101,146,135,1) 0%, rgba(177,194,158,1) 24%, rgba(255,230,169,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(222,170,121,1) 0%, rgba(101,146,135,1) 0%, rgba(177,194,158,1) 24%, rgba(255,230,169,1) 100%);
+background: linear-gradient(180deg, rgba(222,170,121,1) 0%, rgba(101,146,135,1) 0%, rgba(177,194,158,1) 24%, rgba(255,230,169,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#deaa79",endColorstr="#ffe6a9",GradientType=1);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.contenitoreRicerca {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin: auto;
+    margin-top: 20px;
+}
+.contenitoreRicerca input {
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ /* ------------------bottone per la ricerca --------------------*/
+.contenitoreRicerca button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f3a8;
+    color: rgb(100, 58, 58);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.contenitoreRicerca button:hover {
+    background-color: #B1C29E;
+}
+
+/* ------------------risultati della ricerca --------------------*/
+#risultati {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin: auto;
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+}
+#risultati h2 {
+    background-color: #B1C29E;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+#risultatiRicerca ul {
+    list-style-type: none;
+    padding: 10;
+}
+/* ------------------footer --------------------*/
+footer {
+    margin-top: auto;
+    background-color: #659287;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
